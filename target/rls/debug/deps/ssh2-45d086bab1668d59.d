@@ -1,0 +1,13 @@
+c:\Users\Алексей\Documents\rust_work_space\target\rls\debug\deps\ssh2-45d086bab1668d59.rmeta: C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\lib.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\agent.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\channel.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\error.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\knownhosts.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\listener.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\session.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\sftp.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\util.rs
+
+c:\Users\Алексей\Documents\rust_work_space\target\rls\debug\deps\ssh2-45d086bab1668d59.d: C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\lib.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\agent.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\channel.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\error.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\knownhosts.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\listener.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\session.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\sftp.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\util.rs
+
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\lib.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\agent.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\channel.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\error.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\knownhosts.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\listener.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\session.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\sftp.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\ssh2-0.8.0\src\util.rs:

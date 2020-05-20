@@ -1,0 +1,17 @@
+###########################################################################
+# libssh2 installation details
+###########################################################################
+
+prefix=C:\Users\Алексей\Documents\rust_work_space\target\debug\build\libssh2-sys-ff117cee66ebb1e5\out
+exec_prefix=
+libdir=C:\Users\Алексей\Documents\rust_work_space\target\debug\build\libssh2-sys-ff117cee66ebb1e5\out\lib
+includedir=C:\Users\Алексей\Documents\rust_work_space\target\debug\build\libssh2-sys-ff117cee66ebb1e5\out\include
+
+Name: libssh2
+URL: https://www.libssh2.org/
+Description: Library for SSH-based communication
+Version: 1.9.0_DEV
+Requires.private: 
+Libs: -L${libdir} -lssh2 
+Libs.private: 
+Cflags: -I${includedir}

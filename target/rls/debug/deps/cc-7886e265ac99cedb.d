@@ -1,0 +1,12 @@
+c:\Users\Алексей\Documents\rust_work_space\target\rls\debug\deps\cc-7886e265ac99cedb.rmeta: C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs
+
+c:\Users\Алексей\Documents\rust_work_space\target\rls\debug\deps\libcc-7886e265ac99cedb.rlib: C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs
+
+c:\Users\Алексей\Documents\rust_work_space\target\rls\debug\deps\cc-7886e265ac99cedb.d: C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs
+
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\lib.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\registry.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\winapi.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\com.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\setup_config.rs:
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\cc-1.0.50\src\windows_registry.rs:

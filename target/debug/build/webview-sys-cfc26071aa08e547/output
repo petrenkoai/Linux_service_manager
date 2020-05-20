@@ -1,0 +1,222 @@
+cargo:rustc-link-lib=ole32
+cargo:rustc-link-lib=comctl32
+cargo:rustc-link-lib=oleaut32
+cargo:rustc-link-lib=uuid
+cargo:rustc-link-lib=gdi32
+cargo:rustc-link-lib=user32
+TARGET = Some("i686-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("i686-pc-windows-msvc")
+CC_i686-pc-windows-msvc = None
+CC_i686_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_i686-pc-windows-msvc = None
+CFLAGS_i686_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+CC_i686-pc-windows-msvc = None
+CC_i686_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_i686-pc-windows-msvc = None
+CFLAGS_i686_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+CC_i686-pc-windows-msvc = None
+CC_i686_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_i686-pc-windows-msvc = None
+CFLAGS_i686_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-I" "webview.h" "-W4" "-DDEBUG" "-DUNICODE" "-FoC:\\Users\\╨Р╨╗╨╡╨║╤Б╨╡╨╣\\Documents\\rust_work_space\\target\\debug\\build\\webview-sys-cfc26071aa08e547\\out\\webview_mshtml.o" "-c" "webview_mshtml.c"
+webview_mshtml.c
+C:\Program Files (x86)\Windows Kits\8.1\include\um\olectl.h(201): warning C4201: нестандартное расширение: структура (объединение) без имени
+webview_mshtml.c(95): warning C4133: инициализация: несовместимые типы - из "char [8]" в "const TCHAR *"
+webview_mshtml.c(272): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(273): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(275): warning C4100: pctinfo: неиспользованный формальный параметр
+webview_mshtml.c(274): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(280): warning C4100: ppTInfo: неиспользованный формальный параметр
+webview_mshtml.c(279): warning C4100: lcid: неиспользованный формальный параметр
+webview_mshtml.c(279): warning C4100: iTInfo: неиспользованный формальный параметр
+webview_mshtml.c(278): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(287): warning C4100: lcid: неиспользованный формальный параметр
+webview_mshtml.c(285): warning C4100: riid: неиспользованный формальный параметр
+webview_mshtml.c(284): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(302): warning C4100: puArgErr: неиспользованный формальный параметр
+webview_mshtml.c(302): warning C4100: pExcepInfo: неиспользованный формальный параметр
+webview_mshtml.c(301): warning C4100: pVarResult: неиспользованный формальный параметр
+webview_mshtml.c(301): warning C4100: wFlags: неиспользованный формальный параметр
+webview_mshtml.c(300): warning C4100: lcid: неиспользованный формальный параметр
+webview_mshtml.c(300): warning C4100: riid: неиспользованный формальный параметр
+webview_mshtml.c(353): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(356): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(359): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(365): warning C4100: ppmk: неиспользованный формальный параметр
+webview_mshtml.c(364): warning C4100: dwWhichMoniker: неиспользованный формальный параметр
+webview_mshtml.c(363): warning C4100: dwAssign: неиспользованный формальный параметр
+webview_mshtml.c(362): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(369): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(373): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(377): warning C4100: fShow: неиспользованный формальный параметр
+webview_mshtml.c(376): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(381): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(406): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(409): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(418): warning C4100: fEnterMode: неиспользованный формальный параметр
+webview_mshtml.c(418): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(422): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(426): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(430): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(435): warning C4100: lprcClipRect: неиспользованный формальный параметр
+webview_mshtml.c(435): warning C4100: lprcPosRect: неиспользованный формальный параметр
+webview_mshtml.c(446): warning C4100: scrollExtent: неиспользованный формальный параметр
+webview_mshtml.c(445): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(450): warning C4100: fUndoable: неиспользованный формальный параметр
+webview_mshtml.c(450): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(454): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(458): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(462): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(480): warning C4100: ppvObj: неиспользованный формальный параметр
+webview_mshtml.c(480): warning C4100: riid: неиспользованный формальный параметр
+webview_mshtml.c(480): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(483): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(486): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(495): warning C4100: fEnterMode: неиспользованный формальный параметр
+webview_mshtml.c(495): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(499): warning C4100: lprectBorder: неиспользованный формальный параметр
+webview_mshtml.c(498): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(503): warning C4100: pborderwidths: неиспользованный формальный параметр
+webview_mshtml.c(503): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(507): warning C4100: pborderwidths: неиспользованный формальный параметр
+webview_mshtml.c(507): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(512): warning C4100: pszObjName: неиспользованный формальный параметр
+webview_mshtml.c(511): warning C4100: pActiveObject: неиспользованный формальный параметр
+webview_mshtml.c(511): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(517): warning C4100: lpMenuWidths: неиспользованный формальный параметр
+webview_mshtml.c(516): warning C4100: hmenuShared: неиспользованный формальный параметр
+webview_mshtml.c(516): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(523): warning C4100: hwndActiveObject: неиспользованный формальный параметр
+webview_mshtml.c(522): warning C4100: holemenu: неиспользованный формальный параметр
+webview_mshtml.c(521): warning C4100: hmenuShared: неиспользованный формальный параметр
+webview_mshtml.c(520): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(527): warning C4100: hmenuShared: неиспользованный формальный параметр
+webview_mshtml.c(526): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(531): warning C4100: pszStatusText: неиспользованный формальный параметр
+webview_mshtml.c(530): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(535): warning C4100: fEnable: неиспользованный формальный параметр
+webview_mshtml.c(535): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(539): warning C4100: wID: неиспользованный формальный параметр
+webview_mshtml.c(539): warning C4100: lpmsg: неиспользованный формальный параметр
+webview_mshtml.c(539): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(550): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(553): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(558): warning C4100: pdispReserved: неиспользованный формальный параметр
+webview_mshtml.c(558): warning C4100: pcmdtReserved: неиспользованный формальный параметр
+webview_mshtml.c(557): warning C4100: ppt: неиспользованный формальный параметр
+webview_mshtml.c(557): warning C4100: dwID: неиспользованный формальный параметр
+webview_mshtml.c(557): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(562): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(572): warning C4100: pDoc: неиспользованный формальный параметр
+webview_mshtml.c(572): warning C4100: pFrame: неиспользованный формальный параметр
+webview_mshtml.c(571): warning C4100: pCommandTarget: неиспользованный формальный параметр
+webview_mshtml.c(570): warning C4100: pActiveObject: неиспользованный формальный параметр
+webview_mshtml.c(569): warning C4100: dwID: неиспользованный формальный параметр
+webview_mshtml.c(569): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(575): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(578): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(582): warning C4100: fEnable: неиспользованный формальный параметр
+webview_mshtml.c(581): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(586): warning C4100: fActivate: неиспользованный формальный параметр
+webview_mshtml.c(586): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(590): warning C4100: fActivate: неиспользованный формальный параметр
+webview_mshtml.c(590): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(595): warning C4100: fRameWindow: неиспользованный формальный параметр
+webview_mshtml.c(595): warning C4100: pUIWindow: неиспользованный формальный параметр
+webview_mshtml.c(594): warning C4100: prcBorder: неиспользованный формальный параметр
+webview_mshtml.c(594): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(600): warning C4100: nCmdID: неиспользованный формальный параметр
+webview_mshtml.c(600): warning C4100: pguidCmdGroup: неиспользованный формальный параметр
+webview_mshtml.c(599): warning C4100: lpMsg: неиспользованный формальный параметр
+webview_mshtml.c(599): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(604): warning C4100: dw: неиспользованный формальный параметр
+webview_mshtml.c(604): warning C4100: pchKey: неиспользованный формальный параметр
+webview_mshtml.c(604): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(609): warning C4100: ppDropTarget: неиспользованный формальный параметр
+webview_mshtml.c(608): warning C4100: pDropTarget: неиспользованный формальный параметр
+webview_mshtml.c(608): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(618): warning C4100: pchURLIn: неиспользованный формальный параметр
+webview_mshtml.c(618): warning C4100: dwTranslate: неиспользованный формальный параметр
+webview_mshtml.c(618): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(624): warning C4100: pDO: неиспользованный формальный параметр
+webview_mshtml.c(624): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(692): warning C4100: ppvObject: неиспользованный формальный параметр
+webview_mshtml.c(692): warning C4100: riid: неиспользованный формальный параметр
+webview_mshtml.c(692): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(695): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(696): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(697): warning C4100: pSited: неиспользованный формальный параметр
+webview_mshtml.c(697): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(700): warning C4100: ppSite: неиспользованный формальный параметр
+webview_mshtml.c(700): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(703): warning C4100: dwFlags: неиспользованный формальный параметр
+webview_mshtml.c(703): warning C4100: pwszUrl: неиспользованный формальный параметр
+webview_mshtml.c(703): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(707): warning C4100: dwReserved: неиспользованный формальный параметр
+webview_mshtml.c(707): warning C4100: pcbSecurityId: неиспользованный формальный параметр
+webview_mshtml.c(707): warning C4100: pbSecurityId: неиспользованный формальный параметр
+webview_mshtml.c(707): warning C4100: pwszUrl: неиспользованный формальный параметр
+webview_mshtml.c(707): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: dwReserved: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: dwFlags: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: cbContext: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: pContext: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: cbPolicy: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: pPolicy: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: dwAction: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: pwszUrl: неиспользованный формальный параметр
+webview_mshtml.c(710): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: dwReserved: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: cbContext: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: pContext: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: pcbPolicy: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: ppPolicy: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: guidKey: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: pwszUrl: неиспользованный формальный параметр
+webview_mshtml.c(713): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(716): warning C4100: dwFlags: неиспользованный формальный параметр
+webview_mshtml.c(716): warning C4100: lpszPattern: неиспользованный формальный параметр
+webview_mshtml.c(716): warning C4100: dwZone: неиспользованный формальный параметр
+webview_mshtml.c(716): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(719): warning C4100: dwFlags: неиспользованный формальный параметр
+webview_mshtml.c(719): warning C4100: ppenumString: неиспользованный формальный параметр
+webview_mshtml.c(719): warning C4100: dwZone: неиспользованный формальный параметр
+webview_mshtml.c(719): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(728): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(729): warning C4100: This: неиспользованный формальный параметр
+webview_mshtml.c(858): warning C4102: badalloc: неиспользованная метка
+webview_mshtml.c(894): warning C4102: release: неиспользованная метка
+webview_mshtml.c(1100): warning C4100: a: неиспользованный формальный параметр
+webview_mshtml.c(1112): warning C4133: функция: несовместимые типы - из "const char *" в "LPCWSTR"
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-sys-0.5.0\webview_mshtml.c(870) : warning C4706: назначение в пределах условного выражения
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-sys-0.5.0\webview_mshtml.c(882) : warning C4706: назначение в пределах условного выражения
+C:\Users\Алексей\.cargo\registry\src\github.com-1ecc6299db9ec823\webview-sys-0.5.0\webview_mshtml.c(887) : warning C4706: назначение в пределах условного выражения
+exit code: 0
+AR_i686-pc-windows-msvc = None
+AR_i686_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x86\\lib.exe" "-out:C:\\Users\\╨Р╨╗╨╡╨║╤Б╨╡╨╣\\Documents\\rust_work_space\\target\\debug\\build\\webview-sys-cfc26071aa08e547\\out\\libwebview.a" "-nologo" "C:\\Users\\╨Р╨╗╨╡╨║╤Б╨╡╨╣\\Documents\\rust_work_space\\target\\debug\\build\\webview-sys-cfc26071aa08e547\\out\\webview_mshtml.o"
+exit code: 0
+cargo:rustc-link-lib=static=webview
+cargo:rustc-link-search=native=C:\Users\╨Р╨╗╨╡╨║╤Б╨╡╨╣\Documents\rust_work_space\target\debug\build\webview-sys-cfc26071aa08e547\out
