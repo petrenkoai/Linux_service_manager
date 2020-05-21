@@ -20,7 +20,7 @@ fn main() {
     sess.handshake().unwrap();
     sess.userauth_password("root", "password").unwrap();
 
-    let counter_inner = Arc::new(Mutex::new(String::from("")));
+    let service1_inner = Arc::new(Mutex::new(String::from("")));
     let service2_inner = Arc::new(Mutex::new(String::from("")));
 
     let webview = web_view::builder()
@@ -54,20 +54,20 @@ fn main() {
     let handle = webview.handle();
     thread::spawn(move || loop {
         {
-            let mut counter = counter_inner.lock().unwrap();
+            let mut service1_counter = service1_inner.lock().unwrap();
             let mut service2_counter = service2_inner.lock().unwrap();
-            let count;
+            let service1_count;
             let service2_count: String;
 
             let mut channel = sess.channel_session().unwrap();
             channel.exec("systemctl is-active firewalld").unwrap();
-            channel.read_to_string(&mut counter).unwrap();
-            if counter.contains("unknown") {
-                mem::replace( &mut *counter, String::from("stopped"));
-                count = counter.to_string();   
+            channel.read_to_string(&mut service1_counter).unwrap();
+            if service1_counter.contains("unknown") {
+                mem::replace( &mut *service1_counter, String::from("stopped"));
+                service1_count = service1_counter.to_string();   
             } else {
-                mem::replace( &mut *counter, String::from("started"));
-                count = counter.to_string();   
+                mem::replace( &mut *service1_counter, String::from("started"));
+                service1_count = service1_counter.to_string();   
             }
 
             let mut channel = sess.channel_session().unwrap();
@@ -83,7 +83,7 @@ fn main() {
 
             handle
                 .dispatch(move |webview| {
-                    render(webview, &count, &service2_count)
+                    render(webview, &service1_count, &service2_count)
                 })
                 .unwrap();           
         }
@@ -93,9 +93,9 @@ fn main() {
     webview.run().unwrap();
 }
 
-fn render(webview: &mut WebView<i32>, counter: &String, service2_counter: &String) -> WVResult {
-    println!("counter: {}, service2_counter: {},", counter, service2_counter);
-    webview.eval(&format!("updateTicks({:#?}, {:#?})", counter, service2_counter))
+fn render(webview: &mut WebView<i32>, service1_counter: &String, service2_counter: &String) -> WVResult {
+    println!("counter: {}, service2_counter: {},", service1_counter, service2_counter);
+    webview.eval(&format!("updateTicks({:#?}, {:#?})", service1_counter, service2_counter))
 }
 
 fn systemd_command_arg(command_arg: &str){
