@@ -69,6 +69,7 @@ fn main() {
                 mem::replace( &mut *counter, String::from("started"));
                 count = counter.to_string();   
             }
+
             let mut channel = sess.channel_session().unwrap();
             channel.exec("systemctl is-active tuned").unwrap();
             channel.read_to_string(&mut service2_counter).unwrap();
@@ -79,7 +80,6 @@ fn main() {
                 mem::replace( &mut *service2_counter, String::from("started"));
                 service2_count = service2_counter.to_string();   
             }
-            
 
             handle
                 .dispatch(move |webview| {
@@ -94,7 +94,7 @@ fn main() {
 }
 
 fn render(webview: &mut WebView<i32>, counter: &String, service2_counter: &String) -> WVResult {
-    println!("counter: {}, service2_counter: {}", counter, service2_counter);
+    println!("counter: {}, service2_counter: {},", counter, service2_counter);
     webview.eval(&format!("updateTicks({:#?}, {:#?})", counter, service2_counter))
 }
 
@@ -103,7 +103,7 @@ fn systemd_command_arg(command_arg: &str){
     let mut sess = Session::new().unwrap();
     sess.set_tcp_stream(tcp);
     sess.handshake().unwrap();
-    sess.userauth_password("root", "passw0rd").unwrap();                 
+    sess.userauth_password("root", "password").unwrap();                 
     let mut channel = sess.channel_session().unwrap();
     channel.exec(command_arg).unwrap();
     channel.wait_close();
@@ -136,7 +136,7 @@ const HTML: &str = r#"
             <tr>
                 <td valign="bottom"><button onclick="external.invoke('start_tuned')">start tuned</button></td>
                 <td valign="baseline"><div id="service2stat"></div></td>
-                <td valign="bottom"><button onclick="external.invoke('stop_tuned')">stop tuned</button></td>
+                <td valign="bottom""><button onclick="external.invoke('stop_tuned')">stop tuned</button></td>
             </tr>
         </table>
 	</body>
